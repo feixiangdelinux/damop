@@ -65,8 +65,9 @@ def move_to():
         asdfad = -1
     asdfad = asdfad + 1
     dm.RightClick()
+    time.sleep(1)
     dm.MoveTo(280, 30)
-    time.sleep(2)
+    time.sleep(1)
 
 
 def zuorenwu(name, zuobiao_x, zuobiao_y):
